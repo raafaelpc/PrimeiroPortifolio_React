@@ -1,0 +1,60 @@
+.social-midia{ 
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.social-insta{
+    transition: 0.8s;
+    height: 40px;
+    margin-right:10px;
+    background-color: transparent;
+    border-radius: 100%;
+   
+}
+
+.social-insta:hover{
+    border-radius: 100%;
+    background-color: transparent;
+    transition: 0.5s;
+    height: 50px;
+         
+}
+
+
+.social-linkedin{
+    transition: 0.8s;
+    height: 40px;
+    margin-right:10px;
+    background-color: transparent;
+    border-radius: 100%; 
+}
+
+.social-linkedin:hover{
+    border-radius: 100%;
+    background-color: transparent;
+    transition: 0.5s;
+    height: 50px;
+    margin-right:10px ;     
+}
+
+
+
+.social-paypal{
+    transition: 0.8s;
+    height: 40px;
+    margin-right:10px;
+    background-color: transparent;
+    border-radius: 100%; 
+    
+
+}
+
+.social-paypal:hover{
+    border-radius: 100%;
+    background-color: transparent;
+    transition: 0.5s;
+    height: 50px;
+    margin-right:10px ;     
+}

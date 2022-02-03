@@ -1,0 +1,63 @@
+.container-about{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    flex: 1;
+    padding: 0px;
+    position: relative;
+    align-items: center;
+   
+}
+
+
+.about{
+}
+
+.about-top{
+    
+    display: flex;
+    align-items: center;
+}
+
+.picture{
+    
+    height: 50vh;
+    border-radius: 30%;
+    
+}
+
+.about-info{
+    font-size: 24px;
+
+}
+
+.about-name{
+    font-family: 'Gemunu Libre', sans-serif bold;
+}
+
+.about-skill{
+    font-family: 'Crushed';
+
+}
+
+
+
+
+@media only screen and (max-width: 1000px){
+.about-top{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture{
+    height: 300px;
+}
+.about-info{
+    font-size: 20px;
+
+}
+.info-name{
+    font-size: 26px;
+}
+}

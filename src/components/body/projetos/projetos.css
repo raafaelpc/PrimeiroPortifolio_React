@@ -1,0 +1,164 @@
+
+.project{
+
+}
+
+.projects-itens{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+    margin: 10px;
+  }
+
+.project-01{
+    z-index: 3;
+    background-color: yellow;
+    height: 250px;
+    width: 200px;
+    border-radius: 5%;
+    margin-right: 10px;
+    text-align: center;
+    transition: 1.2s;
+    text-decoration: none;
+    box-shadow: 3px 3px transparent, -0em 0 0.4em transparent;
+}
+
+.project-01:hover{
+    height: 260px;
+    width: 230px;
+    border-radius: 10%;
+    transition: 0.8s;
+    box-shadow: 3px 3px transparent, -0.5em 0 0.4em grey;
+}
+
+.project-02{
+    z-index: 3;
+    background-color: red;
+    height: 250px;
+    width: 200px;
+    border-radius: 5%;
+    margin-right: 10px;
+    text-align: center;
+    transition: 1.2s;
+    box-shadow: 3px 3px transparent, -0em 0 0.4em white;
+}
+
+.project-02:hover{
+    height: 260px;
+    width: 230px;
+    border-radius: 10%;
+    transition: 0.8s;
+    box-shadow: 3px 3px transparent, -0.5em 0 0.4em grey;
+}
+
+.project-03{
+    z-index: 3;
+    background-color: chocolate;
+    height: 250px;
+    width: 200px;
+    border-radius: 5%;
+    margin-right: 10px;
+    text-align: center;
+    transition: 1.2s;
+    box-shadow: 3px 3px transparent, -0em 0 0.4em white;
+}
+
+.project-03:hover{
+    height: 260px;
+    width: 230px;
+    border-radius: 10%;
+    transition: 0.8s;
+    box-shadow: 3px 3px transparent, -0.5em 0 0.4em grey;
+}
+
+.project-04{
+    z-index: 3;
+    background-color: blue;
+    height: 250px;
+    width: 200px;
+    border-radius: 5%;
+    margin-right: 10px;
+    text-align: center;
+    transition: 1.2s;
+    box-shadow: 3px 3px transparent, -0em 0 0.4em white;
+}
+
+.project-04:hover{
+    height: 260px;
+    width: 230px;
+    border-radius: 10%;
+    transition: 0.8s;
+    box-shadow: 3px 3px transparent, -0.5em 0 0.4em grey;
+}
+
+.project-05{
+    z-index: 3;
+    background-color: green;
+    height: 250px;
+    width: 200px;
+    border-radius: 5%;
+    margin-right: 10px;
+    text-align: center;
+    transition: 1.2s;
+    box-shadow: 3px 3px transparent, -0em 0 0.4em white;
+}
+
+.project-05:hover{
+    height: 260px;
+    width: 230px;
+    border-radius: 10%;
+    transition: 0.8s;
+    box-shadow: 3px 3px transparent, -0.5em 0 0.4em grey;
+}
+
+.name-project{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 800px){
+    .project{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    }
+    
+    .project-01{
+        margin-bottom: 10px;
+    }
+    .project-02{
+        margin-bottom: 10px;
+    }
+    .project-03{
+        margin-bottom: 10px;
+    }
+    .project-04{
+        margin-bottom: 10px;
+    }
+    .project-05{
+        margin-bottom: 10px;
+    }
+    .break {
+        margin: 0px;
+      }
+}

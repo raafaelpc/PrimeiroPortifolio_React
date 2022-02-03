@@ -1,0 +1,34 @@
+.contato{
+    padding-top: 200px;
+    background-color: white;
+    display: grid;
+    
+    
+  
+}
+
+.contact-name{
+    text-align: center;
+    font-size: 60px;
+}
+
+.container-contact{
+    display: flex;
+    justify-content: space-evenly;  
+
+}
+
+.icon-insta{
+    text-decoration: none;
+    color: black;
+}
+
+.icon-linkedin{
+    text-decoration: none;
+    color: black;
+}
+
+.icon-git{
+    text-decoration: none;
+    color: black;
+}
